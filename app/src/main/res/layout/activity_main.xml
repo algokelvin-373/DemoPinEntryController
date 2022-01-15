@@ -8,7 +8,7 @@
 
     <include
         android:id="@+id/include_pin_entry"
-        layout="@layout/include_pin"
+        layout="@layout/include_pin_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
