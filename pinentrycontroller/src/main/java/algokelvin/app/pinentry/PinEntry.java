@@ -1,4 +1,4 @@
-package algokelvin.app.pinentrycontroller;
+package algokelvin.app.pinentry;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -49,7 +49,7 @@ public class PinEntry {
                 }
 
                 int id = editText.getId();
-                /*if (id == R.id.edt_pin_1) {
+                if (id == R.id.edt_pin_1) {
                     setFirstDigit(digits[0], edtTextPin[1]);
                 } else if (id == R.id.edt_pin_2) {
                     setDigit(digits[1], edtTextPin[2], edtTextPin[0]);
@@ -61,7 +61,7 @@ public class PinEntry {
                     setDigit(digits[4], edtTextPin[5], edtTextPin[3]);
                 } else if (id == R.id.edt_pin_6) {
                     setLastDigit(digits[5], edtTextPin[4]);
-                }*/
+                }
             }
 
             @Override
